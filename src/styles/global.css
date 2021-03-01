@@ -3,6 +3,30 @@
 @tailwind utilities;
 
 
-div {
-  background-color: black;
-}
+* {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+};
+
+html,
+a,
+p,
+li {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+};
+
+html {
+  box-sizing: border-box;
+};
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+};
+
+body {
+  padding: 0;
+  margin: 0;
+};
