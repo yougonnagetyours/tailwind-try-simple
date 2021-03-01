@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import "./nav.css"
+import "../styles/nav.css"
 
 const Nav = () => (
   <nav>
