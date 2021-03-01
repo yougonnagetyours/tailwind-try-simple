@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import "./nav.css"
 
 const Nav = () => (
   <nav>
@@ -8,7 +9,7 @@ const Nav = () => (
           <div>Brand</div>
           <li><Link to="/">Home</Link></li>
           <li><Link to="projects">Projekty</Link></li>
-          <li><Link to="/">Kontact</Link></li>
+          <li><Link to="/">Kontakt</Link></li>
       </ul>
   </nav>
 )
