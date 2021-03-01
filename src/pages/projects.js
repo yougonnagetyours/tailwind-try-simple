@@ -9,11 +9,9 @@ const IndexPage = () => (
   <div>
     <SEO title="Home" />
     <div className="navigation"></div>
-    <div className="main">
-      <Link to="projects">Projekty</Link>
-    </div>
+    <div className="main"></div>
     <div className="footer"></div>
   </div>
 )
 
-export default IndexPage
+export default Projects
