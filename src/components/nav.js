@@ -7,9 +7,9 @@ const Nav = () => (
   <nav>
       <ul>
           <div>Brand</div>
-          <li><Link to="/"><p>Home</p></Link></li>
-          <li><Link to="projects"><p>Projekty</p></Link></li>
-          <li><Link to="/"><p>Kontakt</p></Link></li>
+          <li className="Li"><Link to="/"><p>Home</p></Link></li>
+          <li className="Li"><Link to="projects"><p>Projekty</p></Link></li>
+          <li className="Li"><Link to="/"><p>Kontakt</p></Link></li>
       </ul>
   </nav>
 )
