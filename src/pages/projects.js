@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+const Projects = () => (
   <div>
     <SEO title="Home" />
     <div className="navigation"></div>
