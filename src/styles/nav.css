@@ -1,3 +1,7 @@
 li{
   color: #000;
 }
+ li p {
+   color: #000;
+   font-size: var(--main-font-size2);
+ }
