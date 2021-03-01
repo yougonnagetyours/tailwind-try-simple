@@ -1,12 +1,12 @@
 :root {
   --main-bg-color: black;
   --main-font-size: 15px;
-  --main-font-size2: 80px;
+  --main-font-family: "Open Sans", sans-serif;
 }
 
 
 * {
-  font-family: "Open Sans", sans-serif;
+  font-family: var(--main-font-family);
   font-size: var(--main-font-size);
   box-sizing: border-box;
 }
