@@ -4,7 +4,7 @@ import React from "react"
 import "../styles/nav.css"
 
 const Nav = () => (
-  <nav>
+  <nav className="nav">
       <div className="brand">Brand</div>
       <ul>
           <li className="Li"><Link to="/"><p>Home</p></Link></li>
