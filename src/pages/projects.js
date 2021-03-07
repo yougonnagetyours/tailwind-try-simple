@@ -3,16 +3,15 @@ import { Link } from "gatsby"
 import Nav from "../components/nav"
 
 //import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+const Projects = () => (
   <div>
-    <SEO title="Home" />
+    <SEO title="Projects" />
     <Nav />
     <div className="main"></div>
     <div className="footer"></div>
   </div>
 )
 
-export default IndexPage
+export default Projects

@@ -1,0 +1,16 @@
+nav{
+  background-color: #888;
+}
+
+ul{
+  display: flex;
+}
+
+li.Li{
+  color: #000;
+  margin-bottom: 0;
+}
+li.Li p {
+   color: #000;
+   margin-bottom: 0;
+ }
