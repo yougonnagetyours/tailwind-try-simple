@@ -1,8 +1,7 @@
-<<<<<<< HEAD
 /* @tailwind base; */
 /* @tailwind components; */
 /* @tailwind utilities; */
-=======
+
 :root {
   --main-bg-color: black;
   --main-font-size: 15px;
@@ -40,7 +39,7 @@ body {
   padding: 0;
   margin: 0;
 }
-div.main{
+
+div.main {
   background-color: var(--main-bg-color);
 }
->>>>>>> fcdac5411475287395c9af9b9a9578fb609bffda
