@@ -1,27 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
 nav.nav {
   display: flex;
-  background-color: #888;
+  background-color: #000;
 }
 
 nav div.brand {
   /* align-self: flex-start; */
   display: flex;
-  border: 1px solid black;
-  width: 20%;
+  flex-basis: 20%;
+  padding-top: 20px;
+  color: #fff;
+  /* border: 1px solid black; */
+  /* width: 20%; */
 }
 
-nav ul {
+nav ul.ul {
   display: flex;
-  /* justify-content: flex-end; */
+  flex-basis: 80%;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 20px;
+  /* padding: 20px 0px 0 20px; */
 }
 
-ul li.Li {
-  color: #000;
+ul.ul li.Li {
+  color: #fff;
+  padding: 0 20px;
   margin-bottom: 0;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
-ul li.Li p {
-  color: #000;
+ul.ul li.Li p {
+  color: #fff;
   margin-bottom: 0;
 }
