@@ -5,8 +5,8 @@ import "../styles/nav.css"
 
 const Nav = () => (
   <nav>
+      <div className="brand">Brand</div>
       <ul>
-          <div>Brand</div>
           <li className="Li"><Link to="/"><p>Home</p></Link></li>
           <li className="Li"><Link to="projects"><p>Projekty</p></Link></li>
           <li className="Li"><Link to="/"><p>Kontakt</p></Link></li>

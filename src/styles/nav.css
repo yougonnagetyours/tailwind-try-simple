@@ -1,16 +1,27 @@
-nav{
+nav {
+  display: flex;
   background-color: #888;
 }
 
-ul{
+nav div.brand {
+  /* align-self: flex-start; */
   display: flex;
+  border: 1px solid black;
+  width: 20%;
 }
 
-li.Li{
+nav ul {
+  display: flex;
+  /* justify-content: flex-end; */
+}
+
+ul li.Li {
+  color: #000;
+  margin-bottom: 0;
+  border: 1px solid black;
+}
+
+ul li.Li p {
   color: #000;
   margin-bottom: 0;
 }
-li.Li p {
-   color: #000;
-   margin-bottom: 0;
- }
