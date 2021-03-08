@@ -8,7 +8,7 @@ nav.nav {
   background-color: #000;
 }
 
-nav div.brand {
+nav.nav div.brand {
   /* align-self: flex-start; */
   display: flex;
   flex-basis: 20%;
@@ -18,7 +18,7 @@ nav div.brand {
   /* width: 20%; */
 }
 
-nav ul.ul {
+nav.nav ul.ul {
   display: flex;
   flex-basis: 80%;
   justify-content: flex-end;
