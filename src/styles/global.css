@@ -27,22 +27,22 @@ li {
   list-style: none;
 }
 
-html {
+/* html {
   box-sizing: border-box;
   width: 100vw;
-}
+} */
 
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: inherit;
-}
+} */
 
 body {
   padding: 0;
   margin: 0;
 }
 
-div.main {
+/* div.main {
   background-color: var(--main-bg-color);
-}
+} */
