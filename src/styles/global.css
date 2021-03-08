@@ -2,11 +2,12 @@
 /* @tailwind components; */
 /* @tailwind utilities; */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
 :root {
   --main-bg-color: black;
   --main-font-size: 20px;
-  --main-font-family: 'Roboto', sans-serif;
+  --main-font-family: 'Roboto Condensed', sans-serif;
 }
 
 
